@@ -13,7 +13,7 @@ tags:
 > “Yeah It's on. ”
 
 
-<<<<<<< HEAD
+
 # pqqqYa 的 Blog 开通了
 
 ## 这里有什么？
@@ -25,8 +25,5 @@ tags:
 ## 如何实现的Blog？
 使用的github pages进行的部署
 
-=======
-pqqqYa 的 Blog 开通了
->>>>>>> parent of 26f1c52 (Update 2024-05-27-hello-2024.markdown)
 
 
