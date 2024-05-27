@@ -13,10 +13,6 @@ tags:
 > “Yeah It's on. ”
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 84e76f60f769c3b1226e3664bc35d833d6cc1a44
 # pqqqYa 的 Blog 开通了
 
 ## 这里有什么？
