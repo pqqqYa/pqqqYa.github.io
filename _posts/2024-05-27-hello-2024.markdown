@@ -10,7 +10,7 @@ tags:
     - int
 ---
 
-> “Yeah It's on. ”
+> “Yeah  It's on. ”
 
 
 # pqqqYa 的 Blog 开通了
@@ -28,6 +28,10 @@ tags:
 
 ## 为什么要分享这些
 可能是想沟通吧，虽然可能看到这些文章的人没多少，但是还是希望有个地方可以说一说自己的想法，就当是记录自己的思考，刻个电子墓碑？
+
+## 尾声
+
+> “Hope you enjoy my article.”
 
 
 
