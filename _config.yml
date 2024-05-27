@@ -75,7 +75,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "假装是一个介绍"
-sidebar-avatar: img/avatar-jiesenhe.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://pqqqya.github.io/img/avatar-jiesenhe.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
