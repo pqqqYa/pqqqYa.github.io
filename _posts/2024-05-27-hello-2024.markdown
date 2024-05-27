@@ -13,6 +13,13 @@ tags:
 > “Yeah It's on. ”
 
 
-pqqqYa 的 Blog 开通了
+# pqqqYa 的 Blog 开通了
+
+## 这里有什么？
+技术分享？游戏分享？杂谈？这里什么都可能会有。分享一些我的感兴趣的方向的一些内容
+
+## 如何实现的Blog？
+使用的github pages进行的部署
+
 
 
