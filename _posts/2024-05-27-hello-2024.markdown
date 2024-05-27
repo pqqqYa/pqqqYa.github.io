@@ -3,7 +3,7 @@ layout:     post
 title:      "Hello 2024"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2024-05-27 12:00:00
-author:     "Hux"
+author:     "pqqqYa"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
