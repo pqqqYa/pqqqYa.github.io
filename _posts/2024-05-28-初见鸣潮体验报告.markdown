@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 初见鸣潮体验报告
-subtitle: 锐评鸣潮开服体验bushi
+title: 鸣潮开服体验
+subtitle: 锐评鸣潮开服bushi
 date: 2024-05-28 09:00:00
 author: pqqqYa
 header-img: img/post/2024-05-28-初见鸣潮体验报告-bg.jpg
@@ -14,7 +14,9 @@ tags:
 
 
 > 不是米卫兵！不是原孝子！
+
 > 含有部分剧情剧透，慎入！
+
 > 客观评价，理性分析
 
 # 前言
