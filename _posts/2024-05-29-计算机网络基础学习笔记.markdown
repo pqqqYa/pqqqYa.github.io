@@ -137,4 +137,4 @@ IP over Everything    Everythin over IP
 * 基带调制（仅对波形进行变换）；
 * 带通调制（使用载波调制）：①调幅；②调频；③调相；
 
-![](img\post\2024-05-29\信道.png)
+![](https://raw.githubusercontent.com/pqqqYa/pqqqYa.github.io/main/img/post/2024-05-29/%E4%BF%A1%E9%81%93.png)
