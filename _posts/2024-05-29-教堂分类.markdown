@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Church classification
-subtitle: 西方讲堂分类学习记录
+subtitle: 西方教堂分类
 date: 2024-05-29 10:56:00
 author: pqqqYa
 header-img: img/post/2024-05-29-教堂分类-bg.jpg
