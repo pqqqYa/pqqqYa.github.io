@@ -4,7 +4,7 @@ title: 信息与网络安全学习笔记
 subtitle: 学习笔记总结归纳
 date: 2024-05-28 10:39:00
 author: pqqqYa
-header-img: img/bg-little-universe.jpg
+header-img: img/2024-05-28-信息与网络安全学习笔记-bg.jpg
 catalog: true
 tags:
   - 笔记
