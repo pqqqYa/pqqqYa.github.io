@@ -824,7 +824,9 @@ Html超文本标记语言
 
 ## 7.3 对称秘钥密码体制
 
-DES——64位（56为实际秘钥，8位奇偶校验）；
+DES——64位（56为实际秘钥，8位奇偶校验）
+
+![](https://raw.githubusercontent.com/pqqqYa/pqqqYa.github.io/main/img/post/2024-05-29/DES.png)
 
 RSA
 
@@ -832,6 +834,7 @@ RSA
 * 加密方法的安全性取决于秘钥的长度以及计算量
 
 ![](https://raw.githubusercontent.com/pqqqYa/pqqqYa.github.io/main/img/post/2024-05-29/RSA.png)
+
 
 ## 7.4 数字签名
 
