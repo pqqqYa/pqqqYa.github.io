@@ -1,27 +1,15 @@
 ---
-
 layout: post
-
 title: 计算机网络基础学习笔记
-
 subtitle: 学习笔记总结归纳
-
-date: 2024-05-29 10:31:00
-
+date: 2024-05-29 10:56:00
 author: pqqqYa
-
 header-img: img/bg-little-universe.jpg
-
 catalog: true
-
 tags:
-
-  - 笔记
-
-  - 计算机网络基础
-
-  - IMIS
-
+  - 笔记
+  - 计算机网络基础
+  - IMIS
 ---
 
   
