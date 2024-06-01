@@ -1,0 +1,129 @@
+---
+layout: post
+title: Html5+CSS3学习
+subtitle: H5CSS3学习笔记
+date: 2024-06-01 12:18:00
+author: pqqqYa
+header-img: img/post/2024-06-01-Html5+CSS3学习-bg.jpg
+catalog: true
+tags:
+  - HTML5
+  - HTML
+  - CSS
+  - CSS3
+  - 前端
+---
+
+> 文章持续更新中，[学习视频链接](https://www.bilibili.com/video/BV1XF41187ZJ)
+
+> 当前进度`010-不一般的hr`
+
+
+# 0.环境配置
+
+* VScode
+	* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) 自动同步修改头尾标签
+	* [view-in-browser](https://marketplace.visualstudio.com/items?itemName=koppt.vscode-view-in-browser) 跳转浏览器查看文件
+	* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 实时查看页面，开启本地服务器
+
+
+# 1. html基本语法
+
+## 1.1 常规标记
+
+<标签> </标记>
+
+<标签  属性="属性值"  属性="属性值"> </标记>
+
+标记也可以叫做标签或者元素
+
+例如：`<head> </head>`
+
+## 1.2 空标记
+
+</标记>
+
+</标记  属性="属性值">
+
+例如：`<br/>`
+
+# 2. 文档声明与字符编码
+
+## 2.1 文档声明标签
+
+文档声明标签`<!DOCTYPE ****>`，告诉浏览器如何解析代码
+
+## 2.2 语言声明
+`<html lang="en">`中`lang`就是对html标签的修饰，对搜索引擎和浏览器有帮助，书写的时候声明和书写尽量一致
+
+* `en`英文
+* `zh-CN`中文
+* `ja-jp`日文
+* `ru`俄文
+
+## 2.3 编码格式
+
+`<meta charset="UTF-8">`表示使用UTF-8进行编码，注意和editor的编码设置使用的一致
+
+# 3. HTML常用标签
+
+## 3.1文本标题标签h1-h6
+
+* `<h1>一级标签</h1>`
+* .......
+* `<h6>六级标签</h6>`
+
+## 3.2 段落文本p
+
+`<p>文本</p>`
+
+## 3.3 换行
+
+`<br/>`换行是一个空标记，强制换行
+
+## 3.4 水平线
+
+`<hr/>`空标记
+
+## 3.6 加粗有2个标记
+
+推荐**strong**
+
+`<b>加粗内容</b>`只是显示加粗
+
+`<strong>强调的内容</strong>`突出的文本
+
+## 3.6 倾斜的2个标记（推荐em）
+
+`<em>强调文本</em>`
+
+`<i>倾斜文本</i>`
+
+## 3.7 删除线有2个标记（推荐del）
+
+`<s>文本</s>`删除线
+
+`<del>文本</del>`删除线
+
+## 3.8 扩展
+
+`<u>文本</u>`下划线
+
+`<sub></sub>`下标
+
+`<sup></sup>`上标
+
+
+# 4. 属性的使用
+
+以`<hr/>`为例子
+
+~~~html
+<hr color="green" size="10" width="300" align="left" noshade/>
+~~~
+
+* color颜色
+* size高度
+* width长度
+* align对其方向
+* noshade不显示阴影
