@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Servlet_Program_Learning_Record
+title: Servlet Program Learning Record
 subtitle: Servlet項目学习日志
 date: 2024-06-03 10:40:00
 author: pqqqYa
