@@ -2,17 +2,17 @@
 layout: post
 title: Servlet_Program_Learning_Record
 subtitle: Servlet項目学习日志
-date: 2024-06-03 10:34:00
+date: 2024-06-03 10:40:00
 author: pqqqYa
 header-img: img/post/2024-06-01-Html5+CSS3学习-bg.jpg
 catalog: true
 tags:
-  - jdk1.8
-  - IDEA
-  - apache-tomcat
-  - apipost
-  - mysql
-  - navicat
+  - Java
+  - idea
+  - tomcat
+  - apipost
+  - mysql
+  - navicat
 ---
 
 # Day I
