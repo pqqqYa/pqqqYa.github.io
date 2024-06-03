@@ -4,7 +4,7 @@ title: Servlet Program Learning Record
 subtitle: Servlet項目学习日志
 date: 2024-06-03 10:40:00
 author: pqqqYa
-header-img: img/post/2024-06-01-Html5+CSS3学习-bg.jpg
+header-img: img/post/2024-06-31-ServletProgramLearninglog-bg.jpg
 catalog: true
 tags:
   - Java
