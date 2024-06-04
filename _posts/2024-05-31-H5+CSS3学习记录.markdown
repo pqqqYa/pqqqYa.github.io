@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Html5+CSS3学习
+title: Html5+CSS3 learing log
 subtitle: H5CSS3学习笔记
 date: 2024-06-01 12:18:00
 author: pqqqYa
@@ -12,11 +12,12 @@ tags:
   - CSS
   - CSS3
   - 前端
+  - 笔记
 ---
 
 > 文章持续更新中，[课程视频链接](https://www.bilibili.com/video/BV1XF41187ZJ)
 
-> 当前进度`021-table表格的属性`
+> 当前进度`026-表单标签`
 
 
 #  环境配置
@@ -264,6 +265,87 @@ span，没有实际意义，主要应用在对于文本独立修饰的时候，�
 	* 边框 `border`
 	* 边框颜色 `bordercolor`
 	* 背景颜色 `bgcolor`
-	* 水平对齐 `align="left或right或center"`
+	* 水平对齐 `align="left"`或`align="right"`或`align="center"`
 	* 单元格与单元格之间的间距`cellspacing="间距宽度"`
 	* 单元格与内容之间的空隙`cellpadding="空隙大小"`
+* `行tr属性`
+	* 高度 `height`
+	* 背景颜色 `bgcolor`
+	* 文字水平对齐 `align="left"`或`align="right"`或`align="center"`
+	* 文字垂直对齐 `valign="top"`或`valign="middle"`或`valign="bottom"`
+* `单元格td属性`
+	* 宽度 `width`(一个单元格设置了宽度，影响一整列的宽度)
+	* 高度 `height`（一个单元格设置了高度，影响一整行的高度）
+	* 背景颜色 `bgcolor`
+	* 文字水平对齐 `align="left"`或`align="right"`或`align="center"`
+	* 文字垂直对齐 `valign="top"`或`valign="middle"`或`valign="bottom"`
+ 
+ ## 10.3 合并表格
+
+ `Colspan="所要名并的单元格的列数"`必须给td。
+
+ `Rowspan="所要合并的单元格的行数"`必须给td。
+
+ # XI. 表单标签
+
+ `<from><from>`表单
+
+ `<input/>`输入框
+
+* 属性 type 定义输入框的类型
+	* 文本框 `type="text"`
+	* 密码框 `type="password"`
+	* 提交框 `type="submit"`和`<button>提交按钮</button>`一样
+	* 按钮框 `type="button"`单纯的按钮
+	* 重置框 `type="reset"`清空的效果
+* 属性`placeholder`描述输入字段预期值的简短的提示信息。兼容到IE8以上。
+* 属性`name`必须设置，否则在提交表单时，用户在其中输入的数据不会被发送给服务器
+* 属性`value`
+
+~~~html
+    <form action="http://github.com" method="get">
+        用户名：<input type="text" placeholder="请输入用户名" name="username"/>
+        <br>
+        密码：<input type="password" placeholder="请输入密码" name="userpassword"/>
+        <br>
+        <input type="submit" value="登录">
+		<input type="reset" value="清空输入值">
+    </form>`
+~~~
+
+
+ 输入11和11之后点击登录就会被带到地址上给后端
+
+ > https://github.com/?username=111&userpassword=111
+
+ 一般不会这么写，应为这样数据会非常的不安全。可以使用`post`进行数据传输
+
+ Form当中method的post和get的别?
+
+1. get是从服务器上获取数据，post是向服务器传送数据。
+2. get是把参数数据队列加到提交表单的ACTION属性所指的URL中，值和表单内各个字段-一对应，在URL中可以看到。post是通过HTTP post机制，将表单内各个字段与其内容放置在HTMLHEADER内一起传送到ACTION属性所指的URL地址。用户看不到这个过程。
+3. 对于get方式，服务器端用Request.QueryString获取变量的值，对于post方式，服务器端用Request.Form获取提交的数据,
+4. get传送的数据量较小，不能大于2KB。post传送的数据量较大，一般被默认为不受限制。但理论上，IIS4(Internet Information Service 互联网信息服务)中最大量为80KB，IIS5中为100KB
+
+~~~html
+    <form action="http://github.com" method="post">
+        用户名：<input type="text" placeholder="请输入用户名" name="username"/>
+        <br>
+        密码：<input type="password" placeholder="请输入密码" name="userpassword"/>
+        <br>
+        <button type="submit">登录</button>
+		<button type="reset">清空输入值</button>
+    </form>
+~~~
+
+> http://github.com
+
+此时就看不到信息了，确保了数据安全。
+
+这里也用`<button>`来做按钮，效果是一样的
+
+~~~html
+<input type="button" value="普通按钮">
+~~~
+
+制作一个普通按钮，可以配合JS写自己的行为
