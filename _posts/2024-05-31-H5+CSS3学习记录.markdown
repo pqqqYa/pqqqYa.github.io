@@ -17,7 +17,7 @@ tags:
 
 > 文章持续更新中，[课程视频链接](https://www.bilibili.com/video/BV1XF41187ZJ)
 
-> 当前进度`026-表单标签`
+> 当前进度`028-CSS-外部样式表`
 
 
 #  环境配置
@@ -351,3 +351,46 @@ span，没有实际意义，主要应用在对于文本独立修饰的时候，�
 ~~~
 
 制作一个普通按钮，可以配合JS写自己的行为
+
+# XII.CSS样式表
+
+## 12.1 内部样式表
+
+1. 每个CSS样式由两部分组成，即选择符和声明，声明又分为属性和属性值
+2. 属性必须放在花括号中，属性与属性值用冒号连接
+3. 每条声明用分号结束
+4. 当一个属性有多个属性值的时候，属性值与属性值不分先后顺序,用空格隔开
+5. 在书写样式过程中，空格、换行等操作不影响属性显示
+
+~~~html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: red;
+        }
+        h2{
+            color: yellow;
+        }
+    </style>
+    <style>
+        h3{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>1111111</h1>
+    <h2>2222222</h2>
+    <h3>3333333</h3>
+</body>
+</html>
+~~~
+
+* `style`可以放在`head`和`body`里面，放在`head`里面可以提高代码的易读性。
+* `style`可以放多个，一个里面可以放多个选择符，如`h1`
+
+## 12.2 外部样式表
