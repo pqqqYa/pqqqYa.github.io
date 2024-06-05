@@ -365,27 +365,27 @@ span，没有实际意义，主要应用在对于文本独立修饰的时候，�
 ~~~html
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        h1{
-            color: red;
-        }
-        h2{
-            color: yellow;
-        }
-    </style>
-    <style>
-        h3{
-            color: blue;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		h1{
+			color: red;
+		}
+		h2{
+			color: yellow;
+		}
+	</style>
+	<style>
+		h3{
+			color: blue;
+		}
+	</style>
 </head>
 <body>
-    <h1>1111111</h1>
-    <h2>2222222</h2>
-    <h3>3333333</h3>
+	<h1>1111111</h1>
+	<h2>2222222</h2>
+	<h3>3333333</h3>
 </body>
 </html>
 ~~~
