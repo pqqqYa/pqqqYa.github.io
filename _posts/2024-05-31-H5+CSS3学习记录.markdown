@@ -15,9 +15,11 @@ tags:
   - 笔记
 ---
 
-> 文章持续更新中，[课程视频链接](https://www.bilibili.com/video/BV1XF41187ZJ)
+> 文章持续更新中，最近更新日期`2024-6-9`
 
-> 当前进度`038-选择器的权重`
+> 课程视频[链接](https://www.bilibili.com/video/BV1XF41187ZJ)
+
+> 当前进度`051-视觉差案例`
 
 
 #  环境配置
