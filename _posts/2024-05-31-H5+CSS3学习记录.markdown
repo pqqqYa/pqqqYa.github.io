@@ -567,3 +567,142 @@ id选择器					0，0，1，0，0
 通配符选择器				0，0，0，0，0
 继承的样式				没有优先级（最低）
 ~~~
+
+# XIV.文本属性
+
+## 14.1 字体大小
+
+单位是px，浏览器默认是16px，设计图常用字号是12px
+
+~~~css
+.p1{  
+    font-size: 16px;  
+}
+~~~
+
+## 14.2 字体
+
+当字体是中文字体、英文字体中有空格时，需加双引号
+多个字体中间用逗号链接，先解析第1个字体，如果没有解析第2个字体,以此类推
+
+~~~css
+.p2{  
+    font-family:"Microsoft YaHei UI Light","Microsoft New Tai";  
+}
+~~~
+
+## 14.3 文字颜色
+
+~~~css
+p{  
+    color: white;  
+    color: #ffffff;  
+    color: rgb(255,255,255);  
+    color: rgba(255,255,255,0.5);  
+}
+~~~
+
+rgba相比rgb添加了透明度控制
+
+## 14.4 文字加粗
+
+~~~css
+p{  
+    font-weight: bolder;  更粗的
+    font-weight: bold;  加粗
+    font-weight: normal;  常规
+}
+~~~
+
+## 14.5 文字倾斜
+
+~~~css
+p{  
+	font-style: italic;  斜体字
+    font-style: oblique;  倾斜的文字
+    font-style: normal;  常规显示
+}
+~~~
+
+## 14.6 文本水平对齐
+
+~~~css
+.box{  
+    text-align: center;  
+    text-align: left;  
+    text-align: right;  
+    text-align: justify;
+}
+~~~
+
+text-align: justify;  2端对齐，多行文本中才生效
+
+## 14.7 行高
+
+~~~css
+.box{  
+    line-height: 50px;  
+    height: 50px;  
+    width: 800px;  
+    text-align: center;  
+    background-color: red;  
+}
+~~~
+
+行高和高度设置一样，配合文本居中就是在box的中心位置
+
+多行文本不能这么设置
+
+## 14.8 文本间距
+
+~~~css
+.p1{  
+    letter-spacing: 20px;  
+    word-spacing: 20px; 
+}
+~~~
+
+每个字符或者词语之间的间隔距离
+
+## 14.9 首行缩进
+
+~~~css
+.box{  
+    text-indent: 32px;  
+    text-indent: 2em; 
+}
+~~~
+
+`text-indent`就是每段话前面空多少个像素，或者多少字符
+
+## 14.10 文本修饰线
+
+~~~css
+.box{  
+    text-indent: 2em;  
+    text-decoration:none;    没有  
+    text-decoration:underline;   下划线  
+    text-decoration:overline;    上划线  
+    text-decoration:line-through;    删除线  
+}
+~~~
+
+## 14.11 文字大小写
+
+~~~css
+.box{  
+    text-transform: capitalize;   首字母大写
+    text-transform: lowercase;   全大写
+    text-transform: uppercase;   全小写
+}
+~~~
+
+## 14.12 文字缩写
+
+font是font-style，font-weight，font-size /line-height，font-family 的简写。顺序不能修改，里面直接写属性就可以了
+
+~~~css
+.box{  
+    font: italic bold 20px/2em "Microsoft New Tai";  
+}
+~~~
