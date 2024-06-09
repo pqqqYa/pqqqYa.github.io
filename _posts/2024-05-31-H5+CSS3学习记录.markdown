@@ -706,3 +706,120 @@ font是font-style，font-weight，font-size /line-height，font-family 的简写
     font: italic bold 20px/2em "Microsoft New Tai";  
 }
 ~~~
+
+# XV.列表属性
+
+`list-style-type`定义列表符合样式
+
+~~~css
+ul{  
+    list-style-type: circle;  
+    /*  
+    disc实心圆  
+    circle空心圆  
+    none不显示  
+     */
+}
+~~~
+
+`list-style-image`将图片设置为列表符合样式
+
+~~~css
+ul{  
+   list-style-image: url("****");  
+}
+~~~
+
+`list-style-position`设置列表标记的放置位置
+
+~~~css
+ul{  
+    list-style-position: outside;  
+    /*  
+    outside列表外面，默认值  
+    inside列表里面
+     */
+}
+~~~
+
+`list-style`简写
+
+~~~css
+ul{  
+    list-style:none url("*") outside;
+~~~
+
+# XVI.背景属性
+
+## 16.1 背景颜色
+
+~~~css
+.box{  
+    background-color: orange;   
+}
+~~~
+
+## 16.2 背景图片的平铺
+
+~~~css
+.box{  
+    background-image: url("./img/background_home.jpg"); 
+    background-repeat: repeat-x;
+    /*
+	    repeat-x
+	    repeat-y y轴平铺
+	    no-repeat 不平铺
+    */ 
+    background-position: 10px 20px;
+    /* 
+	    距离左边10px，顶部20px
+	*/
+	background-position: center;
+	/* 
+	    center
+	    left
+	    right
+	    top
+	    botton
+	    left center
+	    right center
+	    center center
+	    .....
+		几个参数可以自由的搭配
+	*/
+}
+~~~
+
+默认的背景效果是平铺效果
+
+## 16.3 背景图片的大小
+
+~~~css
+.box{  
+    width: 800px;  
+    height: 800px;  
+    background-image: url("./img/background_home.jpg");  
+    
+    background-size: 800px 800px;   
+    background-size: cover;  
+    background-size: contain;
+}
+~~~
+
+* `background-size: 800px 800px`可能会导致图片被拉升改变比例
+* `background-size: cover`使图片覆盖组件，部分可能会被裁剪
+* `background-size: contain;`图片完整展示出来，不改变比例，可能出现留白
+## 16.4 背景图片的滚动和固定
+
+~~~css
+.box3{  
+    width: 3000px;  
+    height: 3000px;  
+    background-image: url("./img/background_home.jpg");  
+    background-repeat: no-repeat;  
+    /*background-attachment: scroll; */
+    background-attachment: fixed;  
+}
+~~~
+
+`background-attachment: fixed; `相对于浏览器顶部进行了固定
