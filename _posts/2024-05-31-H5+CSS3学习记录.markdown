@@ -825,3 +825,42 @@ ul{
 ~~~
 
 `background-attachment: fixed; `相对于浏览器顶部进行了固定
+
+## 16.5 背景的复合属性
+
+~~~css
+.box{  
+    background: yellow url("") no-repeat center fixed;  
+}
+~~~
+
+除了backgound-size都可以无顺序的直接放在里面
+
+后面的属性会覆盖前面的属性
+
+# XVII.浮动属性
+
+1. 定义网页中其它文本如何环绕该元素显示
+2. 让竖着的东西横着来排列
+
+~~~css
+.box{
+	float:left;
+	float:right;
+	float:none
+}
+~~~
+
+* "见缝插针"，先填满一排
+* 文字会在里面游动
+
+~~~css
+.box{
+	Clear: none; 允许有浮动对象
+	Clear: right; 不允许右边有浮动对象
+	Clear: left; 不允许左边有浮动对象
+	Clear:both; 不允许有浮动对象 
+}
+~~~
+
+清除浮动只是改变元素的排列方式，该元素还是漂浮着，不占据文档位置
