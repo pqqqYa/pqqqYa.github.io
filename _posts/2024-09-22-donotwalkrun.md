@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jensen Huang’s Speech At Caltech 2024 Commencement 
-subtitle: In this era, run, don't walk!
+subtitle: 黄仁勋在加州理工2024届毕业典礼演讲
 date: 2024-09-22 17:00:00
 author: pqqqYa
 header-img: img/post/2024-09-19-Praisetheomnissiah-bg.jpg
@@ -12,10 +12,9 @@ tags:
   - speech
 ---
 
+> The English text of the article is extracted from a YouTube video, and the Chinese and English have been proofread.
 
-# Jensen Huang’s Speech At Caltech 2024 Commencement 
-
-## In this era, run, don't walk!
+# In this era, run, don't walk!
 
 Ladies and gentlemen, President Rosenbaum, esteemed faculty members, distinguished guests, proud parents, and above all, the 2024 graduating class of Caltech.
 
@@ -143,7 +142,9 @@ And then lastly, prioritize your life.There’s so many things going on, there�
 
 Congratulations, class of 2024, go get them.
 
-## 在这个时代要跑，不要走
+> 文章英文文本来自YouTube视频提取，中英文已经过校对。
+
+# 在这个时代要跑，不要走
 
 
 女士们，先生们，尊敬的教职员工，尊贵的客人，骄傲的父母们，最重要的是，加州理工学院 2024 届的毕业生。
