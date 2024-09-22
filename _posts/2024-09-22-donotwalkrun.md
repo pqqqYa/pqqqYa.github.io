@@ -65,298 +65,88 @@ Because finally, the industry realized of the incredible effectiveness of accele
 
 We now accelerate application domains from computer graphics, ray tracing, of course, to gene sequencing, scientific computing, astronomy, quantum circuit simulations, SQL data processing, and even pandas, data science.
 
-Accelerated computing has reached a tipping point.
+Accelerated computing has reached a tipping point.That is our first great contribution to the computer industry, our first great contribution to society, accelerated computing.It now gives us a path forward for sustainable computing where cost will continue to decline as computing requirement continues to grow.A hundred-fold, a hundred-fold of anything in time or cost or energy savings that accelerated computing opened surely would trigger a new development somewhere else.
 
-That is our first great contribution to the computer industry, our first great contribution to society, accelerated computing.
+We just didn’t know what it was until deep learning came to our consciousness.A whole new world of computing emerged.Jeff Hinton, Alex Krzyzewski, and Ilya Sutskever used NVIDIA CUDA GPUs to train AlexNet and shocked the computer vision community by winning the 2012 ImageNet Challenge.This was the big moment, the big bang of deep learning, a pivotal moment that marked the beginning of the AI revolution.
 
-It now gives us a path forward for sustainable computing where cost will continue to decline as computing requirement continues to grow.
+Our decisions after AlexNet transformed our company is something that’s worth taking note of.Our decisions after AlexNet transformed our company and likely everything else.
 
-A hundred-fold, a hundred-fold of anything in time or cost or energy savings that accelerated computing opened surely would trigger a new development somewhere else.
+We saw the potential of deep learning and believed, just believed through principle thinking, believed through our own analysis of the scalability of deep learning.We believed the approach could learn other valuable functions.That maybe deep learning is a universal function learner and how many problems are difficult or impossible to express using fundamental first principles.And so when we saw this, we thought this is a technology we really have to pay attention to because its limits are potentially only limited by model and data scale.
 
-We just didn’t know what it was until deep learning came to our consciousness.
+However, there were challenges at the time.This is 2012, shortly after 2012.How could we explore the limits of deep learning without having to build these massive GPU clusters? At the time we were a rather small company, building these massive GPU clusters could cost hundreds and hundreds of millions of dollars.And if we didn’t though, there was no assurance that it would be effective if we scaled.However, no one knew how far deep learning could scale.And if we didn’t build it, we’d never know.This is one of those, if you build it, will they come? Our logic is if we don’t build it, they can’t come.
 
-A whole new world of computing emerged.
+And so we dedicated ourselves based on our first principled beliefs and our analysis.And we got ourselves to the point where we believed this was going to be so effective and when the company believes something, we should go act on it.
 
-Jeff Hinton, Alex Krzyzewski, and Ilya Sutskever used NVIDIA CUDA GPUs to train AlexNet and shocked the computer vision community by winning the 2012 ImageNet Challenge.
+So we dove deep into deep learning, and over the next decade, systematically reinvented everything.We reinvented every computing layer, starting with the GPU itself.The invention of the modern GPU, which is very different than the GPU of the past that we invented in the first place, and we went on to invent just about every other aspect of computing, the interconnects, the systems, the networking, and of course, software.
 
-This was the big moment, the big bang of deep learning, a pivotal moment that marked the beginning of the AI revolution.
+We invested billions.We invested billions into the unknown.
 
-Our decisions after AlexNet transformed our company is something that’s worth taking note of.
-
-Our decisions after AlexNet transformed our company and likely everything else.
-
-We saw the potential of deep learning and believed, just believed through principle thinking, believed through our own analysis of the scalability of deep learning.
-
-We believed the approach could learn other valuable functions.
-
-That maybe deep learning is a universal function learner and how many problems are difficult or impossible to express using fundamental first principles.
-
-And so when we saw this, when we saw this, we thought this is a technology we really have to pay attention to because its limits are potentially only limited by model and data scale.
-
-However, there were challenges at the time.
-
-This is 2012, shortly after 2012.
-
-How could we explore the limits of deep learning without having to build these massive GPU clusters? At the time we were a rather small company, building these massive GPU clusters could cost hundreds and hundreds of millions of dollars.
-
-And if we didn’t though, there was no assurance that it would be effective if we scaled.
-
-However, no one knew how far deep learning could scale.
-
-And if we didn’t build it, we’d never know.
-
-This is one of those, if you build it, will they come? Our logic is if we don’t build it, they can’t come.
-
-And so we dedicated ourselves based on our first principled beliefs and our analysis.
-
-And we got ourselves to the point where we believed this was going to be so effective and when the company believes something, we should go act on it.
-
-So we dove deep into deep learning, and over the next decade, systematically reinvented everything.
-
-We reinvented every computing layer, starting with the GPU itself.
-
-The invention of the modern GPU, which is very different than the GPU of the past that we invented in the first place, and we went on to invent just about every other aspect of computing, the interconnects, the systems, the networking, and of course, software.
-
-We invested billions.
-
-We invested billions into the unknown.
-
-Thousands of engineers for a decade worked on deep learning and advancing and scaling deep learning without really knowing how far we could really take the technology.
-
-We invested billions.
-
-And we designed and built supercomputers to explore the limits of deep learning and AI.
+Thousands of engineers for a decade worked on deep learning and advancing and scaling deep learning without really knowing how far we could really take the technology.We invested billions.And we designed and built supercomputers to explore the limits of deep learning and AI.
 
 And in 2016, we announced DGX-1, our first AI supercomputer, and I delivered the first one to a startup in San Francisco, a startup nobody knew anything about, a group of friends of mine who were working on artificial intelligence, a company called OpenAI.
 
-In 2022, 10 years after AlexNet, and about a million-fold increase in computing later, a million-fold.
+In 2022, 10 years after AlexNet, and about a million-fold increase in computing later, a million-fold.If you could just imagine, what would it be like if your laptop was a million-fold more capable? A million-fold later, OpenAI launched ChatGPT, and AI went mainstream.
 
-If you could just imagine, what would it be like if your laptop was a million-fold more capable? A million-fold later, OpenAI launched ChatGPT, and AI went mainstream.
-
-During this decade, NVIDIA transformed ourselves from a graphics company that many of you probably first knew us as, that builds GPUs, to now an AI company that builds massive data center scale supercomputers.
-
-We transformed our company completely.
-
-We also transformed computing completely.
+During this decade, NVIDIA transformed ourselves from a graphics company that many of you probably first knew us as, that builds GPUs, to now an AI company that builds massive data center scale supercomputers.We transformed our company completely.We also transformed computing completely.
 
 The fundamental way of doing computing today has been radically changed.
 
-The computing stack now uses GPU to process large language models that are trained on supercomputers rather than CPUs that are processing instructions written by programmers.
+The computing stack now uses GPU to process large language models that are trained on supercomputers rather than CPUs that are processing instructions written by programmers.We are now creating software that no humans can write.We are now creating software that does things that no humans can imagine, even just 10 years ago.Computers are now intention-driven rather than instruction-driven.Tell a computer what you want, and it will figure out how.And like humans, AI applications will understand the mission, reason, plan, and orchestrate a team of large language models to perform tasks.
 
-We are now creating software that no humans can write.
+Future applications will do and perform very similar to the way we do things, assemble teams of experts, use tools, reason and plan, and execute our mission.Software and what software can do has been completely changed.
 
-We are now creating software that does things that no humans can imagine, even just 10 years ago.
+Even our industry, as it’s being changed and transformed, created yet another industry, an industry the world’s never seen before.An industry is forming right in front of our eyes.
 
-Computers are now intention-driven rather than instruction-driven.
+AI’s input and output are tokens.For all the engineers in the room, you know what I mean.These are floating-point numbers that embed intelligence.Companies are now building a new type of data center that didn’t exist before that specialize in producing intelligence tokens.Essentially, AI factories.Like AC generators that Nikola Tesla invented of the past industrial revolution, we now have AI token generators, and they will be the factories of a new industrial revolution.There’s large industries producing energy, electricity.We now have a large industry producing something invisible called software.In the future, in the very near future, we’ll have industries that are producing, manufacturing intelligence tokens, AI generators.A new computing model has emerged, and a new industry has emerged, all because we reasoned from first principles, formed our belief about the future, and we acted on them.
 
-Tell a computer what you want, and it will figure out how.
+The next wave of AI is robotics, where AI, in addition to a language model, also has a physical world model.We work with hundreds of companies building robots, robotic vehicles, pick-and-place arms, humanoid robots, and even entire gigantic warehouses that are robotic.But unlike our AI factory strategy and our experience there, which was really formed through reasoning and deliberate action, our robotics journey resulted from a series of setbacks.
 
-And like humans, AI applications will understand the mission, reason, plan, and orchestrate a team of large language models to perform tasks.
+As you know, NVIDIA invented the GPU.This was before we invented AI factories.Our first great contribution to the computer industry was reinventing computer graphics through programmable shaders. We invented the GPU and programmable shading in 2000.We wanted to integrate GPUs into every computer, and so we started to combine our GPUs with motherboard chips, and we launched a fabulous integrated graphics chip at the time for AMD CPUs.Our chipset business was an instant success.I think it went from zero to a billion dollars practically overnight.But then all of a sudden, AMD wanted to control all of the technology in the PC, and we wanted to stay independent, so they purchased ATI and no longer needed us.We turned to Intel.
 
-Future applications will do and perform very similar to the way we do things, assemble teams of experts, use tools, reason and plan, and execute our mission.
-
-Software and what software can do has been completely changed.
-
-Even our industry, as it’s being changed and transformed, created yet another industry, an industry the world’s never seen before.
-
-An industry is forming right in front of our eyes.
-
-AI’s input and output are tokens.
-
-For all the engineers in the room, you know what I mean.
-
-These are floating-point numbers that embed intelligence.
-
-Companies are now building a new type of data center that didn’t exist before that specialize in producing intelligence tokens.
-
-Essentially, AI factories.
-
-Like AC generators that Nikola Tesla invented of the past industrial revolution, we now have AI token generators, and they will be the factories of a new industrial revolution.
-
-There’s large industries producing energy, electricity.
-
-We now have a large industry producing something invisible called software.
-
-In the future, in the very near future, we’ll have industries that are producing, manufacturing intelligence tokens, AI generators.
-
-A new computing model has emerged, and a new industry has emerged, all because we reasoned from first principles, formed our belief about the future, and we acted on them.
-
-The next wave of AI is robotics, where AI, in addition to a language model, also has a physical world model.
-
-We work with hundreds of companies building robots, robotic vehicles, pick-and-place arms, humanoid robots, and even entire gigantic warehouses that are robotic.
-
-But unlike our AI factory strategy and our experience there, which was really formed through reasoning and deliberate action, our robotics journey resulted from a series of setbacks.
-
-As you know, NVIDIA invented the GPU.
-
-This was before we invented AI factories.
-
-Our first great contribution to the computer industry was reinventing computer graphics through programmable shaders. We invented the GPU and programmable shading in 2000.
-
-We wanted to integrate GPUs into every computer, and so we started to combine our GPUs with motherboard chips, and we launched a fabulous integrated graphics chip at the time for AMD CPUs.
-
-Our chipset business was an instant success.
-
-I think it went from zero to a billion dollars practically overnight.
-
-But then all of a sudden, AMD wanted to control all of the technology in the PC, and we wanted to stay independent, so they purchased ATI and no longer needed us.
-
-We turned to Intel.
-
-That probably wasn’t a great idea, but we turned to Intel and negotiated a license to connect to Intel CPUs.
-
-Apple was excited by what we were building and asked us to work on a new computer with them, which became the first MacBook Air.
-
-Well, Intel saw what happened and decided they didn’t want us to do that anymore, and so they terminated our agreement.
-
-Well, we pivoted again, and this time we went and licensed ARM, and we built a low-power SoC, a mobile SoC, the world’s first SoC that was essentially a computer, a full operating computer, and it was incredible.
-
-Our chip excited Google, and they asked us to work on a new device, which turned out to have been the Android mobile device.
-
-Well, Qualcomm decided they didn’t want us to do that, and so they didn’t want us to connect to their modems, and it’s hard to build a mobile device without being connected to a modem.
-
-And there were no other LTE modem companies, so we had to exit the mobile device market.
+That probably wasn’t a great idea, but we turned to Intel and negotiated a license to connect to Intel CPUs.Apple was excited by what we were building and asked us to work on a new computer with them, which became the first MacBook Air.Well, Intel saw what happened and decided they didn’t want us to do that anymore, and so they terminated our agreement.Well, we pivoted again, and this time we went and licensed ARM, and we built a low-power SoC, a mobile SoC, the world’s first SoC that was essentially a computer, a full operating computer, and it was incredible.Our chip excited Google, and they asked us to work on a new device, which turned out to have been the Android mobile device.Well, Qualcomm decided they didn’t want us to do that, and so they didn’t want us to connect to their modems, and it’s hard to build a mobile device without being connected to a modem.And there were no other LTE modem companies, so we had to exit the mobile device market.
 
 Well, this happened practically on a year rhythm, and we would build something, it would be incredibly successful, generate enormous amounts of excitement, and then one year later, we were kicked out of those markets.
 
-Well, with no more markets to turn to, we decided to build something where we are sure there are no customers, because one of the things you can definitely guarantee is where there are no customers, there are also no competitors, and nobody cares about you.
+Well, with no more markets to turn to, we decided to build something where we are sure there are no customers, because one of the things you can definitely guarantee is where there are no customers, there are also no competitors, and nobody cares about you.And so we chose a market with no customers, a 0 billion market, and it was robotics.We built the world’s first robotics computer processing an algorithm nobody understood at the time called deep learning.
 
-And so we chose a market with no customers, a $0 billion market, and it was robotics.
+This is over 10 years ago now.Ten years later, I can’t be happier with what we’ve built and the opportunity to create the next wave of AI. More importantly, we developed agility and a culture of resilience.
 
-We built the world’s first robotics computer processing an algorithm nobody understood at the time called deep learning.
+One setback after another, we shook it off and skated to the next opportunity.Each time, we gained skills and strengthened our character.We strengthened our corporate character.Our company is really hard to distract and really hard to discourage, and no setback that comes our way doesn’t look like an opportunity these days.Ironically, the robotics computer that we built today doesn’t even need graphics, which is why our journey started in the first place.So where we are today tells us something and teaches us something.The world is uncertain, as Richard Feynman would say, and the world can be unfair and deal you with tough cards.
 
-This is over 10 years ago now.
+There’s another opportunity out there, or create one.Let me tell you one more story.
 
-Ten years later, I can’t be happier with what we’ve built and the opportunity to create the next wave of AI. More importantly, we developed agility and a culture of resilience.
+I used to work from one of our international sites for one month each summer.When our kids were in their teens, we spent a summer in Japan.For a weekend, we visited Kyoto and the Silver Temple.If you haven’t had a chance to go, you must.It’s renowned for its exquisite moss garden.
 
-One setback after another, we shook it off and skated to the next opportunity.
+The day we visited was quintessential Kyoto summer day, suffocatingly hot and humid, sticky.Heat is radiating from the ground.The air was thick, still.Along with the other tourists, we wandered through the meticulously groomed moss garden.And I noticed the lone gardener.
 
-Each time, we gained skills and strengthened our character.
+Now, remember, the moss garden, this is the Silver Temple, the moss garden is gigantic.It’s about the size of this courtyard.And it has the collection, the largest collection of just about apparently every species of moss in the world.And it’s just exquisitely maintained.
 
-We strengthened our corporate character.
+I noticed the lone gardener squatting, carefully picking at the moss with a bamboo tweezer and putting it in the bamboo basket.And you have to, it’s a bamboo tweezer, you know, and it’s just this one gardener.And the basket looked empty.Well, for a moment there, I thought he was picking imaginary moss into a pile of imaginary dead moss.
 
-Our company is really hard to distract and really hard to discourage, and no setback that comes our way doesn’t look like an opportunity these days.
-
-Ironically, the robotics computer that we built today doesn’t even need graphics, which is why our journey started in the first place.
-
-So where we are today tells us something and teaches us something.
-
-The world is uncertain, as Richard Feynman would say, and the world can be unfair and deal you with tough cards.
-
-Swiftly, shake it off.
-
-You’ve apparently been paying too much attention to your books.
-
-Swiftly, shake it off.
-
-Come on, that’s pretty clever.
-
-I made myself laugh.
-
-There’s another opportunity out there, or create one.
-
-Let me tell you one more story.
-
-I used to work from one of our international sites for one month each summer.
-
-When our kids were in their teens, we spent a summer in Japan.
-
-For a weekend, we visited Kyoto and the Silver Temple.
-
-If you haven’t had a chance to go, you must.
-
-It’s renowned for its exquisite moss garden.
-
-The day we visited was quintessential Kyoto summer day, suffocatingly hot and humid, sticky.
-
-Heat is radiating from the ground.
-
-The air was thick, still.
-
-Along with the other tourists, we wandered through the meticulously groomed moss garden.
-
-And I noticed the lone gardener.
-
-Now, remember, the moss garden, this is the Silver Temple, the moss garden is gigantic.
-
-It’s about the size of this courtyard.
-
-And it has the collection, the largest collection of just about apparently every species of moss in the world.
-
-And it’s just exquisitely maintained.
-
-I noticed the lone gardener squatting, carefully picking at the moss with a bamboo tweezer and putting it in the bamboo basket.
-
-And you have to, it’s a bamboo tweezer, you know, and it’s just this one gardener.
-
-And the basket looked empty.
-
-Well, for a moment there, I thought he was picking imaginary moss into a pile of imaginary dead moss.
-
-And so I walked up to him and I said, what are you doing? And in his English, he said, I’m picking dead moss.
-
-I’m taking care of my garden.
+And so I walked up to him and I said, what are you doing? And in his English, he said, I’m picking dead moss.I’m taking care of my garden.
 
 And I said, but your garden is so big.
 
-And he responded, I have cared for my garden for 25 years.
+And he responded, I have cared for my garden for 25 years.I have plenty of time.Well, that was one of the most profound learnings in my life.And it really taught me something.This gardener has dedicated himself to his craft and doing his life’s work.And when you do that, you have plenty of time.
 
-I have plenty of time.
+I begin each morning, I do every single morning exactly the same way, I begin each morning by doing my highest priority work first.I have a very clear priority list and I start from the highest priority work first.Before I even get to work, my day is already a success.I’ve already completed my most important work and can dedicate my day to helping others.And when people apologize for interrupting me, I always say I have plenty of time and I do.
 
-Well, that was one of the most profound learnings in my life.
+Graduates of the class of 2024, I can hardly imagine anyone more prepared for the future than you.You dedicated yourself, you worked hard, you earned a world-class education from one of the most prestigious schools in the world.And as you commence into the next stage, take my learnings and hopefully they’ll help you along the way.
 
-And it really taught me something.
-
-This gardener has dedicated himself to his craft and doing his life’s work.
-
-And when you do that, you have plenty of time.
-
-I begin each morning, I do every single morning exactly the same way, I begin each morning by doing my highest priority work first.
-
-I have a very clear priority list and I start from the highest priority work first.
-
-Before I even get to work, my day is already a success.
-
-I’ve already completed my most important work and can dedicate my day to helping others.
-
-And when people apologize for interrupting me, I always say I have plenty of time and I do.
-
-Graduates of the class of 2024, I can hardly imagine anyone more prepared for the future than you.
-
-You dedicated yourself, you worked hard, you earned a world-class education from one of the most prestigious schools in the world.
-
-And as you commence into the next stage, take my learnings and hopefully they’ll help you along the way.
-
-I hope you believe in something, something unconventional, something unexplored, but let it be informed and let it be reasoned.
-
-Then dedicate yourself to making it happen.
-
-You may find your GPU, you may find your CUDA, you may find your generative AI, you may find your NVIDIA.
-
-I hope you will see setbacks as new opportunities.
-
-Your pain and suffering will strengthen your character, your resilience and agility, and they are the ultimate superpowers.
-
-Of all of the things that I value most about my abilities, intelligence is not top of that list.
+I hope you believe in something, something unconventional, something unexplored, but let it be informed and let it be reasoned.Then dedicate yourself to making it happen.You may find your GPU, you may find your CUDA, you may find your generative AI, you may find your NVIDIA.I hope you will see setbacks as new opportunities.Your pain and suffering will strengthen your character, your resilience and agility, and they are the ultimate superpowers.Of all of the things that I value most about my abilities, intelligence is not top of that list.
 
 My ability to endure pain and suffering, my ability to work on something for a very, very long period of time, my ability to handle setbacks and see the opportunity just around the corner I consider to be my superpowers, and I hope they’re yours.
 
-And I hope you find a craft.
+I hope you find a craft.It’s not important to decide on day one, it’s not even important to decide any time soon, but I hope you do find a craft, that you want to dedicate your lifetime to perfecting, to hone the skills of, and let it be your life’s work.
 
-I hope you find a craft.
-
-It’s not important to decide on day one, it’s not even important to decide any time soon, but I hope you do find a craft, that you want to dedicate your lifetime to perfecting, to hone the skills of, and let it be your life’s work.
-
-And then lastly, prioritize your life.
-
-There’s so many things going on, there’s so many things to do, but prioritize your life and you will have plenty of time to do the important things.
+And then lastly, prioritize your life.There’s so many things going on, there’s so many things to do, but prioritize your life and you will have plenty of time to do the important things.
 
 Congratulations, class of 2024, go get them.
 
 ## 在这个时代要跑，不要走
 
 
-女士们，先生们，尊敬的教职员工，尊贵的客人，骄傲的父母们，最重要的是，加州理工学院2024 届的毕业生。
+女士们，先生们，尊敬的教职员工，尊贵的客人，骄傲的父母们，最重要的是，加州理工学院 2024 届的毕业生。
 
 今天对你们来说真的是快乐的一天，你们应该表现的兴奋一些。你们即将从加州理工学院毕业，这是伟大的理查德·费曼、莱纳斯·鲍林，还有一位在我们的行业中对我影响很大的卡弗·米德曾经毕业的学校。
 
@@ -366,9 +156,9 @@ Congratulations, class of 2024, go get them.
 
 学会做出牺牲、忍受痛苦和苦难，你在生活中需要这些品质。
 
-我们之间有一些交集。首先，英伟达的两位首席科学家都来自加州理工学院。我今天发表演讲的原因之一是因为我们正在招聘。所以我想说的是，英伟达是一家非常伟大的公司。我会是一位非常好的老板，会得到大家喜爱。
+我们之间有一些交集。首先，英伟达的两位首席科学家都来自加州理工学院。我今天发表演讲的原因之一是因为我们正在招聘。所以我想说的是，英伟达是一家非常伟大的公司。我会是一位非常好的老板，会得到大家喜爱,来英伟达工作吧。
 
-来英伟达工作吧，我们都热爱科学和工程。尽管我们年龄相差大约 40 岁，但我们都处于职业生涯的巅峰期。对于所有关注英伟达和我的人来说，你能明白我的意思吗？对你们而言，你们会有很多很多巅峰要去，我只希望今天不是我的巅峰。所以，我一如既往地努力工作，确保我前面还有更多的高峰。
+我们都热爱科学和工程。尽管我们年龄相差大约 40 岁，但我们都处于职业生涯的巅峰期。对于所有关注英伟达和我的人来说，你能明白我的意思吗？对你们而言，你们会有很多很多巅峰要去，我只希望今天既不是我的巅峰，也不是NVIDIA的巅峰。所以，我一如既往地努力工作，确保我前面还有更多的高峰。
 
 去年，我在台大的毕业典礼上发表演讲，分享了几个有关英伟达的发展故事以及我们学到的可能对毕业生有价值的经验教训。我不得不承认的是，我不喜欢给别人提建议，尤其是给别人的孩子。
 
@@ -378,7 +168,7 @@ Congratulations, class of 2024, go get them.
 
 我很庆幸享受了很多生活经历，从一无所有到创造英伟达到今天的成就。回想创建 CUDA 的漫长道路，CUDA 是我们花了 20 多年时间才发明出来的一种技术，它在当今的计算领域掀起了一场革命，正在彻底改变计算。
 
-说到一个被公开取消的世嘉游戏机项目，我知道理查德·费曼对这个事情非常关心并经常提到，知识诚实和谦卑拯救了我们的公司，而撤退，战略性撤退是我们最好的策略之一。
+说到一个被公开取消的世嘉游戏机项目，我知道理查德·费曼对这个事情非常关心并经常提到，知识诚实和谦卑拯救了我们的公司。而撤退，战略性撤退是我们最好的策略之一。
 
 所有这些都是我在毕业典礼上谈到的违反直觉的教训，但我鼓励毕业生参与 AI，这是我们这个时代最重要的技术。关于这一点，我稍后会再多说一些。
 
@@ -386,31 +176,36 @@ Congratulations, class of 2024, go get them.
 
 然而一年后，令人难以置信的是发生了如此大的变化。所以今天，我想与你们分享我的观点，从我的角度来看你们即将毕业的一些重要事情。这些都是正在发生的非凡事情，你们应该有直觉理解，因为这对你来说很重要。这将对整个行业产生影响。希望你能抓住眼前的机会。
 
-计算机行业正在从基础设施开始转变，从字面上看就是从螺栓开始，一切都在改变，每个行业也将发生变革。原因很明显，因为今天的计算机是唯一最重要的知识工具，是每个行业的基础。如果我们正在如此深刻地改变计算机，它当然会对每个行业都产生影响。我稍后会谈论这个问题。当你进入 AI 行业时，了解正在发生的事情是很重要的。
+计算机行业正在从基础设施开始转变，从字面上看就是从螺栓开始，一切都在改变，每个行业也将发生变革。原因很明显，因为今天的计算机是唯一最重要的知识工具，是每个行业的基础。如果我们正在如此深刻地改变计算机，它当然会对每个行业和每个科学领域都产生影响。我稍后会谈论这个问题。当你进入 AI 行业时，了解正在发生的事情是很重要的。
 
-现代计算可以追溯到 IBM System 360，这是我学习架构的手册。从那以后，很多关于计算机和架构的文档和描述被提出来。但 System 360 在当时非常重要，该系统的思想、架构和原则至今仍主导着计算机行业。
+现代计算可以追溯到 IBM System 360，这是我学习架构的手册。但是现在这本架构手册你们不需要学习了。从那以后，很多关于计算机和架构的文档和描述被提出来。
 
-我是第一代学习标志性教材 Mead–Conway VLSI 芯片设计的工程师之一，它革命性地改变了集成电路设计。正是这本书使我们这一代人能够设计超大规模的芯片，最终开发出 CPU。我不确定这本书现在是否还在这里教授，但它应该被继续使用。
+但是System 360 在当时非常重要，该系统的基础思想、架构和原则至今仍主导着计算机行业。他是在我出生后的第二年提出的。
 
-CPU 推动了计算性能的指数级增长，摩尔定律这种性能、令人惊叹的技术进步，推动了信息技术革命。我们所参与的工业革命，我们这一代人所参与的工业革命，见证了世界上前所未见的大规模生产。大规模生产那些看不见、易于复制的东西。软件的大规模生产，催生出了一个价值 3 万亿美元的产业。当我还没毕业时，IT 行业微不足道，通过销售软件赚钱只是幻想。然而今天，软件是 IT 行业生产的最重要的商品、最重要的技术和产品创造之一。然而，NARD 缩放、晶体管制程和指令级并行性都削减了 CPU 的性能。但 CPU 性能提升放缓是在计算需求继续呈指数级增长的时候发生的。
+在80年代，我是第一代使用标志性教材 ***Mead–Conway*** 来学习芯片设计的VLSI工程师之一，我不确定这本书现在是否还在这里被教授，但它应该被继续使用。
 
-这种需求与计算机能力之间呈指数级增长的差距，如果不加以解决，计算能源消耗和成本膨胀最终将扼杀每一个行业。正如我们所见，算力已经很紧张了。在英伟达推进 CUDA 技术二十年后，英伟达为加速计算提供了一条前进的道路。这是我有资格回来演讲的原因。
 
-在计算通胀发生数十年后，通过将耗时的算法卸载到专门进行并行处理的 GPU 上，加速计算实现了难以置信效果。我们通常能够实现 10 倍、100 倍，有时甚至是 1000 倍的加速，节省了金钱、成本和能源。我们现在加速的应用领域覆盖计算机图形学、射线追踪，当然还有基因测序、科学计算、天文学、量子电路模拟、SQL 数据处理，甚至是 PANDAS、数据科学 。
+正因为Carver Mead在加州理工学院对芯片设计方法论和教科书的开创性工作，集成电路设计被革命性地改变了。正是这本书使我们这一代人能够设计超大规模的芯片，最终开发出 CPU。
 
-加速计算已达到一个临界点。这是英伟达对计算机行业的第一大贡献，也是对社会的第一大贡献。如今，它为我们提供了一条永续计算的道路，在计算需求不断增加的情况下，成本、时间、能源方面都将持续下降一百倍。
+CPU 推动了计算性能的指数级增长，摩尔定律这种性能、令人惊叹的技术进步，推动了信息技术革命。我们所参与的工业革命，我们这一代人所参与的工业革命，见证了世界上前所未见的大规模生产。大规模生产那些看不见、易于复制的东西。软件的大规模生产，催生出了一个价值 3 万亿美元的产业。当我还没毕业时，IT 行业微不足道，通过销售软件赚钱只是幻想。然而今天，软件是IT行业生产的最重要的商品、最重要的技术和产品创造之一。然而，NARD 缩放、晶体管制程和指令级并行性都削减了 CPU 的性能。但 CPU 性能提升放缓是在计算需求继续呈指数级增长的时候发生的。
 
-加速计算的开启，必然会在其他领域引领新发展。起初我们不知道是哪些领域，直到深度学习走进我们的视野。一个全新的计算世界出现了。Geoffrey Hinton、Alex Krzyzewski 和 Ilya Sutskever 使用英伟达 CUDA GPU 训练 AlexNet，赢得了 2012 ImageNet 挑战赛，震惊了计算机视觉界。这是一个重大的时刻，是深度学习的大爆炸，是一个标志着 AI 革命开始的关键时刻。
+这种计算需求与计算机能力之间呈指数级增长的差距，如果不加以解决，计算能源消耗，成本和通货膨胀最终将扼杀每一个行业。正如我们所见，算力已经很紧张了。在英伟达推进 CUDA 技术二十年后，英伟达为加速计算提供了一条前进的道路。这是我有资格回来演讲的原因。
 
-在 AlexNet 后，我们的决策改变了英伟达，可能还改变了其他的一切。
+最终，在计算通胀发生数十年后，整个行业认识到了通过将耗时的算法卸载到专门进行并行处理的 GPU 上加速计算所获得的那难以置信效果。我们通常能够实现 10 倍、100 倍，有时甚至是 1000 倍的加速，节省了金钱、成本和能源。我们现在的加速应用领域覆盖计算机图形学、射线追踪，当然还有基因测序、科学计算、天文学、量子电路模拟、SQL 数据处理，甚至是 PANDAS、数据科学 。
 
-我们看到了深度学习的潜力，并通过第一性原则，相信通过我们自己对深度学习可扩展性的分析，我们相信这种方法可以学习其他有价值的功能。也许深度学习可能是一个通用的函数学习器。同时，有些问题难以或无法用基本的第一性原则来解释。所以当我们看到这点时，深度学习是一项我们真正需要关注的技术，因为它的局限性可能只受到模型和数据规模的限制。
+加速计算已达到一个临界点。这是英伟达对计算机行业的第一大贡献，也是对社会的第一大贡献。如今，它为我们提供了一条永续计算的道路，在计算需求不断增加的情况下，成本、时间、能源方面都将持续下降一百倍。加速计算的开启，必然会在其他领域引领新发展。
+
+起初我们不知道是哪些领域，直到深度学习走进我们的视野。一个全新的计算世界出现了。Geoffrey Hinton、Alex Krzyzewski 和 Ilya Sutskever 使用英伟达 CUDA GPU 训练 AlexNet，赢得了 2012 ImageNet 挑战赛，震惊了计算机视觉界。这是一个重大的时刻，是深度学习的大爆炸，是一个标志着 AI 革命开始的关键时刻。
+
+值得注意的是，我们在AlexNet的出现后的决策改变了英伟达，可能还改变了其他的一切。
+
+我们看到了深度学习的潜力，通过第一性原则我们坚定的相信，相信通过我们自己对深度学习可扩展性的分析，我们相信这种方法可以学习其他有价值的功能。也许深度学习可能是一个通用的函数学习器。同时，有些问题难以或无法用基本的第一性原则来解释。所以当我们看到这点时，深度学习是一项我们真正需要关注的技术，因为它的局限性可能只受到模型和数据规模的限制。
 
 然而，当时也存在挑战。这是在 2012 年刚过不久时发生的事。我们如何无需建造这些巨大的 GPU 集群，就能探索深度学习的极限？在当时，英伟达是一家很小的公司。建造这些巨大的 GPU 集群可能要花费数亿美元。即使我们不这么做，也不能保证我们扩大规模后会有效。然而，没有人知道深度学习能够扩展到多大规模。如果我们不建造它，我们永远不会知道这个问题的答案。我们思考的一点是，如果你建造它，你能探索到深度学习的极限吗？我们的逻辑是，如果我们不建造巨大的 GPU 集群，那种未来永远不会到来。
 
 因此，基于英伟达最初的原则，和当时的分析，我们认为当时已经到达了关键点，建造巨大的 GPU 集群将非常有效。当公司相信这件事情时，我们就应该对此采取行动。
 
-因此，英伟达深耕深度学习，并在接下来的十年中，系统地重新发明了一切。我们重新发明了每一个计算层，从 GPU 开始。后来开发的 GPU，与过去我们开发的 GPU 非常不同。我们继续创设了关于计算的其他方面，包括互连、系统、网络，当然还有软件。
+因此，英伟达深耕深度学习，并在接下来的十年中，系统地重新发明了一切。我们从 GPU 开始，重新发明了每一个计算层。后来开发的 GPU，与过去我们开发的 GPU 非常不同。我们继续创设了关于计算的其他方面，包括互连、系统、网络，当然还有软件。
 
 英伟达向未知领域投入了数十亿美元。数千名工程师花了十数年时间，致力于深度学习以及深度学习的拓展和推进。实际上，开始时，我们并不知道这项技术能发展到什么程度。我们就投资了数十亿美元。我们设计并制造了超级计算机，用以探索深度学习和 AI 学习的极限。
 
@@ -418,25 +213,27 @@ CPU 推动了计算性能的指数级增长，摩尔定律这种性能、令人�
 
 到 2022 年，也就是 AlexNet 诞生 10 年后，计算能力增长了约 100 万倍。想象一下，如果你的笔记本电脑比以前更强大 100 万倍，会变成什么样子？在算力增长了 100 万倍后，OpenAI 推出了 ChatGPT，AI 成为主流。
 
-在这个十年间，Nvidia 从一个许多人最初认识的图形公司，专注于构建 GPU，转变为现在的 AI 公司，构建大规模数据中心级超级计算机。我们彻底改变了我们的公司。同时，我们也彻底改变了计算领域。
+在这个十年间，NVIDIA 从一个许多人最初认识的图形公司，专注于构建 GPU，转变为现在的 AI 公司，构建大规模数据中心级超级计算机。我们彻底重塑了我们的公司。同时也彻底重塑了计算领域。
 
-当今计算方式已经发生了根本性的变化。现在的计算堆栈使用 GPU 来处理在超级计算机上训练的大型语言模型，而不是使用 CPU 处理程序员编写的指令。我们正在创建人类无法编写的软件。我们正在创建的软件可以做一些十年前人类也无法想象的事情。计算机现在是意图驱动的，而不是指令驱动的。告诉计算机你想要什么，它就会想出办法来实现。像人类一样，AI 应用程序也会理解任务、推理、计划并协调一组大型语言模型来执行任务。未来的应用程序将以非常类似于我们做事的方式执行任务。
+当今计算方式已经发生了根本性的变化。现在的计算堆栈使用 GPU 来处理在超级计算机上训练的大型语言模型，而不是使用 CPU 处理程序员编写的指令。我们正在创建人类无法编写的软件。我们正在创建的软件可以做一些甚至是十年前的人们也无法想象的事情。计算机现在是意图驱动的，而不是指令驱动的。告诉计算机你想要什么，它就会想出办法来实现。像人类一样，AI 应用程序也会理解任务、推理、计划并协调一组大型语言模型来执行任务。
 
-组建专家团队，使用工具，进行推理和计划，执行我们的任务软件。软件的能力已经彻底变化，我们的行业也在发生变化和转型，创造了一个前所未有的新行业。
+未来的应用程序将以非常类似于我们做事的方式执行任务：组建专家团队，使用工具，进行推理和计划，执行我们的任务。软件的能力已经彻底变化，我们的行业也在发生变化和转型，创造了一个前所未有的新行业。
 
-一个新的行业正在我们眼前形成。AI 的输入和输出数据就像是工程师们手中的关键 token。这些浮点数中包含了智能信息 。公司现在正在建立一种新的数据中心，这种数据中心以前不存在。它专门生产智能 token，本质上是 AI 工厂，就像尼古拉？特斯拉过去在工业革命中发明的交流发电机一样。我们现在有了 AI token 生成器，它们将成为新工业革命的工厂。过去有生产能源和电力的大型行业，现在我们有了生产软件这种无形物的大型行业。在不久的将来，我们将拥有生产智能 token 的行业，AI 生成器。一种新的计算模式已经出现，一个新的行业已经形成，这一切都是因为我们从第一性原理出发，形成了对未来的信念，并付诸行动。
+即使我们的行业正在发生变革，它也催生了另一个全新的行业，一个世界从未见过的行业。一个新的行业正在我们眼前形成。
+
+AI 的输入和输出数据就像是工程师们手中的关键 token。这些浮点数中包含了智能信息 。公司现在正在建立一种新的数据中心，这种数据中心以前不存在。它专门生产AI token，本质上是 AI 工厂。就像尼古拉·特斯拉过去在工业革命中发明的交流发电机一样。我们现在有了 AI token 生成器，它们将成为新工业革命的工厂。过去有生产能源和电力的大型行业。现在我们有了生产软件这种无形物的大型行业。在不久的将来，我们将拥有生产AI token，AI 生成器的行业。一种新的计算模式已经出现，一个新的行业已经形成，这一切都是因为我们从第一性原理出发，形成了对未来的信念，并付诸行动。
 
 人工智能的下一个浪潮是机器人技术。在这个领域，人工智能不仅有语言模型，还有物理世界模型。我们与数百家公司合作制造机器人，包括机器人车辆、取放机械臂、人形机器人，甚至是整个巨大的机器人仓库。但与我们的 AI 工厂战略和经验不同，我们的机器人之旅实际上是通过一系列挫折形成的，而不是通过推理和深思熟虑的行动 。
 
-正如你所知，英伟达发明了（ 首个专为图形处理设计 的）GPU。那是在我们发明人工智能工厂之前。 我们对计算机行业的第一个重大贡献是通过引入可编程着色器，重新定义了计算机图形学 。 我们在 2000 年推出了 GPU 和可编程着色技术 ，希望将 GPU 集成到每台计算机中。因此，我们开始将 GPU 与主板芯片结合，并为 AMD 的 CPU 推出了一款出色的集成图形芯片，我们的芯片组业务一举成功。我记得它几乎在一夜之间从零增长到十亿美元。但突然之间，AMD 想要控制 PC 中的所有技术，而我们希望保持独立。因此他们收购了 ATI，不再需要我们了。于是我们转向英特尔。
+正如你所知，英伟达发明了GPU。那是在我们发明人工智能工厂之前。 我们对计算机行业的第一个重大贡献是通过引入可编程着色器，重新定义了计算机图形学 。 我们在 2000 年推出了 GPU 和可编程着色技术 ，希望将 GPU 集成到每台计算机中。因此，我们开始将 GPU 与主板芯片结合，并为 AMD 的 CPU 推出了一款出色的集成图形芯片，我们的芯片组业务一举成功。我记得它几乎在一夜之间从零增长到十亿美元。但突然之间，AMD 想要控制 PC 中的所有技术，而我们希望保持独立。因此他们收购了 ATI，不再需要我们了。于是我们转向英特尔。
 
 这也许不是个好主意，但我们还是求助于英特尔。通过谈判，我们获得了连接英特尔 CPU 的许可。苹果公司对我们的产品非常感兴趣，邀请我们与他们合作开发一款新电脑，这就是第一代 MacBook Air。英特尔看到发生的一切后，决定不再让我们这样做了。于是他们终止了我们的协议。
 
 当我们再次转向时，这次我们获得了 ARM 公司的授权，并开发了低功耗 SoC、移动 SoC，实际上是世界上首个完整的操作计算机的 SoC。非常了不起，我们的芯片被用在谷歌设备中。他们邀请我们合作开发一款新设备，这就是安卓移动设备。然而，高通不希望我们这样做，所以他们不希望我们连接到他们的调制解调器上。而在没有调制解调器的情况下，很难制造移动设备。而且当时也没有其他的 LTE 调制解调器公司，所以我们不得不退出移动设备市场。
 
-这种情况几乎每年都会发生。我们会建造一些东西。它会非常成功，带来数月的兴奋。
+这种情况几乎每年都会发生。我们会开发一些东西，它会取得巨大的成功，引发极大的热情，但一年后，我们就会被市场淘汰。
 
-一年后，我们被踢出了这些市场。好吧，没有市场可转了， 我们决定进入一个确信没有客户的领域。 因为你可以肯定的是，在没有客户的地方，也就没有竞争对手，没有人会关心你。因此，我们选择了一个没有客户的市场，一个价值为 0 的市场。这就是机器人技术。我们建立了世界上第一个机器人计算机处理系统，投身一种当时无人理解的算法，它被称为深度学习。
+一年后，我们被踢出了这些市场。好吧，没有市场可转了， 我们决定进入一个确信没有客户的领域。 因为你可以肯定的是，在没有客户的地方，也就没有竞争对手，没有人会关心你。因此，我们选择了一个没有客户的市场，一个价值为 0 的市场。这就是机器人技术。我们建立了世界上第一个机器人计算机处理程序，投身一种当时无人理解的算法，它被称为深度学习。
 
 这已经是 10 多年前的事了。10 年后的今天，我对我们的成就和创造下一波人工智能浪潮的机会感到无比高兴。更重要的是，我们培养了灵活应变和坚韧不拔的文化。
 
@@ -462,7 +259,7 @@ CPU 推动了计算性能的指数级增长，摩尔定律这种性能、令人�
 
 2024 届毕业生，我很难想象会有人比你为未来做了更多的准备。你奉献自己，你努力工作。你从世界上最负盛名的学校之一获得了世界一流的教育。当你开始进入下一阶段时，借鉴我的经验，希望它们能帮助你开辟前进的道路。
 
-我希望你相信一些非常规的、未经探索的东西，但你们需要让它是有根据的，是合理且符合理性的，然后全身心投入去实现它。你可能会找到你的「GPU」，你可能会找到你的「CUDA」，你可能会找到你的「生成式 AI」，你可能会找到你的「英伟达」。我希望你能将挫折视为新的机会，你经历的痛苦和苦难会增强你的性格、韧性和敏捷性，它们是我最珍视的终极超能力。而智力并不是这个「能力列表」中最重要的。
+我希望你相信一些非常规的、未经探索的东西，但你们需要让它是有根据的，是合理且符合理性的，然后全身心投入去实现它。你可能会找到你的「GPU」，你可能会找到你的「CUDA」，你可能会找到你的「生成式 AI」，你可能会找到你的「英伟达」。我希望你能将挫折视为新的机会，你经历的痛苦和苦难会增强你的性格、韧性和敏捷性，它们是我最珍视的终极超能力。回看我的「能力列表」在这中智力并不是最重要的。
 
 我忍受痛苦和折磨的能力，我长时间从事某件事情的能力，我处理挫折的能力，我看到机会的能力，我认为这是我的超能力，我希望它们也是你的。
 
