@@ -4,7 +4,7 @@ title: Jensen Huang’s Speech At Caltech 2024 Commencement
 subtitle: 黄仁勋在加州理工2024届毕业典礼演讲
 date: 2024-09-22 17:00:00
 author: pqqqYa
-header-img: img/post/2024-09-19-Praisetheomnissiah-bg.jpg
+header-img: img/post/2024-09-22-donotwolkrun-bg.jpg
 catalog: true
 tags:
   - Caltech
