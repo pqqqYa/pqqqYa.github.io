@@ -49,7 +49,7 @@ input → Weights → Summation and Bias → Activation → Output
 
 * input输入
 * Weights权重
-* Summation and Bias每个数据与不同权重相乘后加和偏差，权重矩阵乘输入数据加偏置项$$z = W · x +b$$
+* Summation and Bias每个数据与不同权重相乘后加和偏差，权重矩阵乘输入数据加偏置项 $$ z = W · x +b $$ 
 * Activation激活函数
 * Output
 
@@ -356,18 +356,18 @@ def train_model(train_dl, model):
 
 回归模型的评估指标主要用于衡量模型的预测值和实际值之间的差距
 
-1. 均方误差（MSE, Mean Squared Error）$$\frac{1}{n} \sum_{i=1}^{n}(Y_i-\hat{Y_i}  )^2$$其中n为数据量，y为实际值，y方为估计预测值，衡量预测值与实际值之间的平均平方误差，值越小模型的预测效果越好
-2. 均方根误差（RMSE, Root Mean Squared Error）$$RMSE = \sqrt{MSE}$$
-3. 平均绝对误差（MAE, Mean Absolute Error）$$MAE=\frac{1}{n}\sum_{i=1}^{n}\left | Y_i-\hat{Y_i}\right |$$衡量预测值与实际值之间的平均绝对误差，值越小模型的预测效果越好
-4. 拟合优度(R方，也称为判定系数)$$R^2=1-\frac{\sum_{i=1}^{n}(Y_i-\bar{Y_i}  )^2}{\sum_{i=1}^{n}(Y_i-\bar{Y_i}  )^2}$$表示模型解释变量方差的比例，范围在0-1之间，值越接近1，模型的解释能力越强
+1. 均方误差（MSE, Mean Squared Error） $$ \frac{1}{n} \sum_{i=1}^{n}(Y_i-\hat{Y_i}  )^2 $$ 其中n为数据量，y为实际值，y方为估计预测值，衡量预测值与实际值之间的平均平方误差，值越小模型的预测效果越好
+2. 均方根误差（RMSE, Root Mean Squared Error） $$ RMSE = \sqrt{MSE} $$ 
+3. 平均绝对误差（MAE, Mean Absolute Error） $$ MAE=\frac{1}{n}\sum_{i=1}^{n}\left | Y_i-\hat{Y_i}\right | $$ 衡量预测值与实际值之间的平均绝对误差，值越小模型的预测效果越好
+4. 拟合优度(R方，也称为判定系数) $$ R^2=1-\frac{\sum_{i=1}^{n}(Y_i-\bar{Y_i}  )^2}{\sum_{i=1}^{n}(Y_i-\bar{Y_i}  )^2} $$ 表示模型解释变量方差的比例，范围在0-1之间，值越接近1，模型的解释能力越强
 
 分类模型的评估指标主要用于衡量模型的分类效果
 
 1. 混淆矩阵（Confusion Matrix），以矩阵形式展现分类结果，包括TP、TN、FP、FN便于直观分析分类结果的细节。ConfusionMatrix混淆矩阵是机器学习中统计分类模型预测结果的表，以矩阵的形式将数据集中的记录，按照真实的类别与分类模型预测的类别进行汇总。
-2. ROC曲线（Receiver Operating Characteristic Curve）与AUC（Area Under the Curve），ROC曲线横轴表示$$FPR=\frac{FP}{FP+TN}$$即错误的预测为正例的概率，纵轴表示$$TPR=\frac{TP}{TP+FN}$$即正确地预测为正例的概率。AUC衡量ROC曲线下的面积，AUC越大，表示越有可能将正样本排在负样本前面，模型的分类性能越好
-3. 准确率（Precision）$$Accuracy=\frac{TP+TN}{TP+TN+FP+FN}$$衡量模型预测正确的样本数占总样本数的比例适用于类别分布相对均衡的情况
-4. 召回率（Recall）$$Recall=\frac{TP}{TP+FN}$$衡量模型实际为正类的样本中被正确预测为正类的比例，适用于关注假阴性较多的情况
-5. F1分数（F1 Score）$$F1 Score=\frac{2\cdot Precision \cdot Recall}{Precision + Recall}$$精确率与召回率的调和平均，综合考虑了两者的表现，适用于类别不平衡的情况下
+2. ROC曲线（Receiver Operating Characteristic Curve）与AUC（Area Under the Curve），ROC曲线横轴表示 $$ FPR=\frac{FP}{FP+TN} $$ 即错误的预测为正例的概率，纵轴表示 $$ TPR=\frac{TP}{TP+FN} $$ 即正确地预测为正例的概率。AUC衡量ROC曲线下的面积，AUC越大，表示越有可能将正样本排在负样本前面，模型的分类性能越好
+3. 准确率（Precision） $$ Accuracy=\frac{TP+TN}{TP+TN+FP+FN} $$ 衡量模型预测正确的样本数占总样本数的比例适用于类别分布相对均衡的情况
+4. 召回率（Recall） $$ Recall=\frac{TP}{TP+FN} $$ 衡量模型实际为正类的样本中被正确预测为正类的比例，适用于关注假阴性较多的情况
+5. F1分数（F1 Score） $$ F1 Score=\frac{2\cdot Precision \cdot Recall}{Precision + Recall} $$ 精确率与召回率的调和平均，综合考虑了两者的表现，适用于类别不平衡的情况下
 
 ## 9.2 代码解读
 
