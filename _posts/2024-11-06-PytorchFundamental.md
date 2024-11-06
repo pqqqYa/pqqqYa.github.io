@@ -358,7 +358,7 @@ def train_model(train_dl, model):
 
 1. 均方误差（MSE, Mean Squared Error） $$ \frac{1}{n} \sum_{i=1}^{n}(Y_i-\hat{Y_i}  )^2 $$ 其中n为数据量，y为实际值，y方为估计预测值，衡量预测值与实际值之间的平均平方误差，值越小模型的预测效果越好
 2. 均方根误差（RMSE, Root Mean Squared Error） $$ RMSE = \sqrt{MSE} $$ 
-3. 平均绝对误差（MAE, Mean Absolute Error） $$ MAE=\frac{1}{n}\sum_{i=1}^{n}\left | Y_i-\hat{Y_i}\right | $$ 衡量预测值与实际值之间的平均绝对误差，值越小模型的预测效果越好
+3. 平均绝对误差（MAE, Mean Absolute Error） $$ MAE=\frac{1}{n}\sum_{i=1}^{n}\lvert  Y_i-\hat{Y_i}\rvert   $$ 衡量预测值与实际值之间的平均绝对误差，值越小模型的预测效果越好
 4. 拟合优度(R方，也称为判定系数) $$ R^2=1-\frac{\sum_{i=1}^{n}(Y_i-\bar{Y_i}  )^2}{\sum_{i=1}^{n}(Y_i-\bar{Y_i}  )^2} $$ 表示模型解释变量方差的比例，范围在0-1之间，值越接近1，模型的解释能力越强
 
 分类模型的评估指标主要用于衡量模型的分类效果
