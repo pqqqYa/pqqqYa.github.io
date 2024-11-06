@@ -4,7 +4,7 @@ title:      "PyTorch Fundamentals - Using MINIST Handwritten Digit Recognition a
 subtitle:   "Pytorch基础--以MINIST手写识别为例"
 date:       2024-11-06 20:40:00
 author:     "pqqqYa"
-header-img: "img/bg-little-universe.jpg"
+header-img: img/post/2024-11-06-PytorchFundamental.jpg
 catalog: true
 tags:
     - Pytorch
