@@ -143,7 +143,7 @@ class CNN(Module):
 
 通过池化，在保留最重要特征的同时，图的尺寸再一次缩小，减少了模型的计算量和参数数量，同时增加在不同模型之间的通用性（减少过拟合，提高泛化能力）
 
-![](https://github.com/pqqqYa/pqqqYa.github.io/blob/main/img/post/2024-11-06/%E6%B1%A0%E5%8C%96%E5%B1%82.png)
+![](https://raw.githubusercontent.com/pqqqYa/pqqqYa.github.io/refs/heads/main/img/post/2024-11-06/%E6%B1%A0%E5%8C%96%E5%B1%82.png)
 
 
 # 4. 建立多层数字识别CNN神经网络模型
