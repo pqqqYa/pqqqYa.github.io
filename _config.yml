@@ -74,7 +74,7 @@ ga_domain: pqqqya.github.io
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "计算机相关专业在读，关心时政的军事爱好者，战锤40k锤佬"
+sidebar-about-description: "略懂计算机、政治、历史与军事"
 sidebar-avatar: https://pqqqya.github.io/img/avatar-jiesenhe.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
