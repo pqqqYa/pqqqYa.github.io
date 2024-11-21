@@ -14,6 +14,7 @@ tags:
 
 # 第零节 环境配置
 
+
 推荐一个Youtube上的一个教程[How to create Selenium project in IntelliJ IDEA || Ganesh Jadhav](https://youtu.be/cGZf8j6RIRU?si=Umikh0Q_BCp7dK6Y)
 
 首先需要的是Selenium相关的依赖文件的导入和配置，Selenium可以使用python、Java等等语言操作，可以详见[Selenium.dev-Downloads](https://www.selenium.dev/downloads/)，选择自己熟悉的语言，以下就是以Java为例子。
