@@ -15,11 +15,11 @@ tags:
 # 第零节 环境配置
 
 
-推荐一个Youtube上的一个教程[How to create Selenium project in IntelliJ IDEA || Ganesh Jadhav](https://youtu.be/cGZf8j6RIRU?si=Umikh0Q_BCp7dK6Y)
+推荐一个Youtube上的一个教程[How to create Selenium project in IntelliJ IDEA](https://youtu.be/cGZf8j6RIRU?si=Umikh0Q_BCp7dK6Y)
 
 首先需要的是Selenium相关的依赖文件的导入和配置，Selenium可以使用python、Java等等语言操作，可以详见[Selenium.dev-Downloads](https://www.selenium.dev/downloads/)，选择自己熟悉的语言，以下就是以Java为例子。
 
-再一个是下载相关浏览器的驱动文件，下文以Microsoft Edge浏览器为例，这里是[官方下载链接](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH)。请注意，无论是使用何种浏览器，都需要下载了浏览器对应版本的驱动程序才可以运行。下载完成后，使用如`System.setProperty("webdriver.edge.driver","C:\\Users\\username\\Documents\\msedgedriver.exe");`引入驱动即可使用。
+再一个是下载相关浏览器的驱动文件，下文以Microsoft Edge浏览器为例，这里是[官方下载链接](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH)。请注意，无论是使用何种浏览器，都需要下载了浏览器对应版本的驱动程序才可以运行。下载完成后，使用如System.setProperty("webdriver.edge.driver","C:\\Users\\username\\Documents\\msedgedriver.exe");引入驱动即可使用。
 
 
 到此为止，我们已经完成了Selenium的环境配置，接下来就可以开始编写我们的第一个软件测试程序了。
